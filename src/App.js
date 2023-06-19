@@ -3,13 +3,13 @@ import React, { useState, useEffect } from "react";
 const App = () => {
 
     const [usuarios, setUsuarios] = useState(
-        ["Vinicius", "Junior", "Carlos"])
+        ["joao", "maria", "jose"])
         
         useEffect(() =>{
 
             setTimeout(() => {
 
-                setUsuarios([...usuarios, "Carlos"]);
+                setUsuarios([...usuarios, "joaquim"]);
 
             }, 5000);
 
