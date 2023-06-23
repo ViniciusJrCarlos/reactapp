@@ -37,6 +37,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4"
+    "eslint-config-airbnb": "^19.0.4",
+    "rbx": "^2.2.0"
   }
 }
